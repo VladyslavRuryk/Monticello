@@ -1,0 +1,23 @@
+{
+  "name": "fdn_package",
+  "version": "1.0.0",
+  "description": "test scss project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch --recursive --output css --source-map true --source-map-contents scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcss/starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcss/starter/issues"
+  },
+  "homepage": "https://github.com/alexcss/starter#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
