@@ -1,0 +1,123 @@
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+h1{
+	font-family: 'gothambold1', sans-serif;
+	font-size: 64px;
+	font-weight: bold;
+	cursor: default;
+}
+h2{
+	font-family: 'gotham_mediumregular', sans-serif;
+	font-size: 44px;
+	font-weight: 100;
+	cursor: default;
+}
+h3{
+	font-family: 'gothambold1', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: default;
+}
+h4{
+	font-family: 'GothamBook', sans-serif;
+	font-size: 16px;
+	cursor: default;
+}
+h5{
+	font-family: 'GothamBook', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	cursor: default;
+}
+h6{
+	font-family: 'GothamBook', sans-serif;
+	font-size: 11px;
+	cursor: default;
+}
+h6.href{
+	cursor: pointer;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	cursor: default;
+}
+i{
+	margin: 0 10px;
+}
+a{
+	cursor: pointer;
+}
+.button-click{
+	background-color: #ffffff !important;
+	border: 1px solid #2C4058 !important;
+	outline: none;
+	color: #2C4058;
+}
+.button-click:hover{
+	 background: #2C4058 !important;
+	 color: #ffffff !important;
+}
+.line{
+	transition-duration: 0.5s;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
