@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/alexcss/starter#readme",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   }
 }
